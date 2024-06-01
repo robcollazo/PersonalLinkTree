@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./Assets/bg-mobile.jpg);
+  --bg-url: url(./Assets/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./Assets/bg-mobile-light.jpg);
+  --bg-url: url(./Assets/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -34,7 +34,6 @@ body * {
 }
 
 #container {
-  border: 1px solid red;
   width: 360px;
   margin: 56px auto 0px;
   padding: 0 24px;
